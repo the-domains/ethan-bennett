@@ -1,28 +1,40 @@
-name: Ethan Bennett
-favicon: null
-layout_spectrum: 0.9995807809755206
-typography_spectrum: 0.17076
-cta:
-  domain: null
-  bucket: null
-  version: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.805627689929679
+  brandStrength: 0.3602151
+  lightness: 1
+  brandColors:
+    - '#060608'
+    - '#FFFFFF'
+    - '#8B939E'
+    - '#4E4F49'
+    - '#BDBDBB'
+  rhythmicContrast: 0.75
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+name: Ethan Bennett
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#0c0d11'
-    - '#adbbd6'
-    - '#fef6d2'
-    - '#7b8086'
-    - '#d89c82'
-  brandStrength: 0.25
-  lightness: 1
-  saturation: 0.805627689929679
-  rhythmicContrast: 0.75
-purpose: []
+typography_spectrum: 0.17076
+layout_spectrum: 0.9995807809755206
